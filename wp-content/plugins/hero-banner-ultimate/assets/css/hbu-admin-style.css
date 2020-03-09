@@ -1,0 +1,20 @@
+.hbupro-setting-block {font-size: 18px; font-weight: bold; margin-top: 20px;}
+.hbupro-border-bottom {border-bottom: 1px solid #dedede;}
+.hbupro-action-btn{cursor:pointer; padding:4px 0 0 0; vertical-align:middle; display:inline-block;}
+.hbupro-action-btn i{width:auto; height:auto; font-size: 24px;}
+.hbupro-add-row{color:#348C34;}
+.hbupro-del-row{color:#d54e21;}
+#single-button label{font-weight: bold; margin-right: 10px; line-height: 25px;}
+#single-button .row {margin: 20px 10px;}
+#hbuproos-pro-post-sett #single-button input, #hbuproos-pro-post-sett #single-button select{line-height: 25px;}
+.wp-list-table .type-hbupro_btn .row-actions{color:#999;}
+.form-table{margin:0;}
+.hbupro-no-padding{padding:0 !important;}
+.hbupro-no-padding-left {padding-left:0 !important; padding-top:0 !important;}
+.hbupro-group-button-sett.form-table td{padding-left:0; padding-right:20px;}
+.hbupro-select-box{max-width: 200px; width:100%;}
+th.hbupro-act-head{width: 60px;}
+.hbupro-group-btn-row td{vertical-align:top;}
+.hbupro-sett-title{border-bottom: 2px solid #ccc; padding: 0 0 5px;}
+.banner-imgs-preview{width:150px;}
+.banner-imgs-preview img{max-width:100%;}

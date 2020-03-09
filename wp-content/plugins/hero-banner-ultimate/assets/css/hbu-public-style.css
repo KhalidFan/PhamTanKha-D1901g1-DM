@@ -1,0 +1,242 @@
+/************************************************************
+				Box Sizing
+************************************************************/
+.hbupro-column, .hbupro-columns {-webkit-box-sizing: border-box; -moz-box-sizing: border-box;box-sizing: border-box;}
+.hbupro-hero-banner-wrp *{outline: none !important; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;box-sizing: border-box;}
+.hbupro-hero-banner-wrp img{border-radius:0px !important; box-shadow:none !important;}
+/************************************************************
+				Clearfix
+************************************************************/
+.hbupro-clearfix:before, .hbupro-clearfix:after{content: "";display: table;}
+.hbupro-clearfix::after{clear: both;}
+.hbupro-clearfix{clear: both;}
+
+/************************************************************
+				Common Designs CS
+************************************************************/
+.hbupro-hero-banner{position:relative; overflow:hidden}
+.hbupro-hero-banner{  background-repeat:no-repeat !important; }
+.hbupro-hero-banner-inner{ background-repeat:no-repeat !important;   }
+.hbupro-hero-banner-inner{-webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none;  hyphens: none; position:relative; z-index:2; }
+.hbupro-hero-banner-inner-wrap	{  margin:0 auto;}
+.hbupro-hero-banner-title {  line-height:normal; color:#fff;  word-wrap: normal !important}
+.hbupro-hero-banner-sub-title p{margin:0px !important; font-size:16px; color:#fff;}
+.hbupro-hero-banner-links{clear:both;  margin-top:15px;}
+.hbupro-hero-banner-links a.hbupro-button{padding:8px 20px; margin-right:10px; margin-bottom:3px; display:inline-block; color:#fff; text-decoration:none; -moz-transition:all 0.5s ease-out 0s;-ms-transition:all 0.5s ease-out 0s;-o-transition:all 0.5s ease-out 0s; transition: all 0.5s ease-out 0s;}
+.hbupro-hero-banner-title,  .hbupro-hero-banner-sub-title{margin-bottom:15px !important}
+
+/************************************************************
+				Layout Designs
+************************************************************/
+
+.hbupro-layout-2 h2.hbupro-hero-banner-title{ border-bottom:1px solid #fff; margin-bottom:15px !important; padding-bottom:15px !important}
+
+/************************************************************
+				Button designs
+************************************************************/
+
+/******  Button Black *****/
+.hbupro-black{background-color: #252525;}
+.hbupro-black:hover, .hbupro-black:focus{background-color: #000;}
+a.hbupro-black{color: #fff  !important;}
+
+/******  Button White *****/
+.hbupro-white{background-color: #fff;}
+.hbupro-white:hover, .hbupro-white:focus{background-color: #f1f1f1;}
+a.hbupro-white{color: #8799a3  !important;}
+
+/******  Button Gray *****/
+.hbupro-grey{background-color: #8799a3;}
+.hbupro-grey:hover, .hbupro-gray:focus{background-color: #73848d;}
+a.hbupro-grey{color: #fff  !important;}
+
+/******  Button azure *****/
+.hbupro-azure{background-color: #0081ff;}
+.hbupro-azure:hover, .hbupro-azure:focus{background-color: #0374e3;}
+a.hbupro-azure{color: #fff  !important;}
+
+/******  Button moderate-green *****/
+.hbupro-moderate-green{background-color: #8dc63f;}
+.hbupro-moderate-green:hover, .hbupro-moderate-green:focus{background-color: #78b623;}
+a.hbupro-moderate-green{color: #fff  !important;}
+
+/******  Button soft-red*****/
+.hbupro-soft-red{background-color: #f04e4e;}
+.hbupro-soft-red:hover, .hbupro-soft-red:focus{background-color: #dd3131;}
+a.hbupro-soft-red{color: #fff  !important;}
+
+/******  Button moderate-red*****/
+.hbupro-red{background-color: #fe0000;}
+.hbupro-red:hover, .hbupro-red:focus{background-color: #df0303;}
+a.hbupro-red{color: #fff  !important;}
+
+/******  Button green*****/
+.hbupro-green{background-color: #39b54a;}
+.hbupro-green:hover, .hbupro-green:focus{background-color: #23a535;}
+a.hbupro-green{color: #fff  !important;}
+
+/******  Button Yellow*****/
+.hbupro-bright-yellow{background-color: #fefb30;}
+.hbupro-bright-yellow:hover, .hbupro-bright-yellow:focus{background-color: #e2df22;}
+a.hbupro-bright-yellow{color: #000  !important;}
+
+/******  Button cyan*****/
+.hbupro-cyan{background-color: #1cbbb4;}
+.hbupro-cyan:hover, .hbupro-cyan:focus{background-color: #10a19b;}
+a.hbupro-cyan{color: #fff  !important;}
+
+/******  Button orange*****/
+.hbupro-orange{background-color: #ff9700;}
+.hbupro-orange:hover, .hbupro-orange:focus{background-color: #e68903;}
+a.hbupro-orange{color: #fff  !important;}
+
+/******  Button moderate violet*****/
+.hbupro-moderate-violet{background-color: #6739b6;}
+.hbupro-moderate-violet:hover, .hbupro-moderate-violet:focus{background-color: #5e2eb0;}
+a.hbupro-moderate-violet{color: #fff  !important;}
+
+/******  Button dark-magenta*****/
+.hbupro-dark-magenta{background-color: #9c26b0;}
+.hbupro-dark-magenta:hover, .hbupro-dark-magenta:focus{background-color: #911ea5;}
+a.hbupro-dark-magenta{color: #fff  !important;}
+
+/******  Button moderate-blue*****/
+.hbupro-moderate-blue{background-color: #5674b9;}
+.hbupro-moderate-blue:hover, .hbupro-moderate-blue:focus{background-color: #435f9f;}
+a.hbupro-moderate-blue{color: #fff  !important;}
+
+/******  Button blue*****/
+.hbupro-blue{background-color: #00f;}
+.hbupro-blue:hover, .hbupro-blue:focus{background-color: #0101e1;}
+a.hbupro-blue{color: #fff  !important;}
+
+/******  Button magenta*****/
+.hbupro-magenta{background-color: #f0f;}
+.hbupro-magenta:hover, .hbupro-magenta:focus{background-color: #e201e2;}
+a.hbupro-magenta{color: #fff  !important;}
+
+/******  Button lime *****/
+.hbupro-lime{background-color: #bfff00;}
+.hbupro-lime:hover, .hbupro-lime:focus{background-color: #a8e003;}
+a.hbupro-lime{color: #000  !important;}
+
+/******  Button pink *****/
+.hbupro-pink{background-color: #ff0056;}
+.hbupro-pink:hover, .hbupro-pink:focus{background-color: #dd044d;}
+a.hbupro-pink{color: #fff  !important;}
+
+/******  Button vivid-yellow *****/
+.hbupro-vivid-yellow{background-color: #fecb16;}
+.hbupro-vivid-yellow:hover, .hbupro-vivid-yellow:focus{background-color: #dfb10e;}
+a.hbupro-vivid-yellow{color: #000  !important;}
+
+/******  Button lime-green *****/
+.hbupro-lime-green{background-color: #7bcba7;}
+.hbupro-lime-green:hover, .hbupro-lime-green:focus{background-color: #67ac8d;}
+a.hbupro-lime-green{color: #000  !important;}
+
+/******  Button yellow *****/
+.hbupro-yellow{background-color: #e8ff00;}
+.hbupro-yellow:hover, .hbupro-yellow:focus{background-color: #c7da05;}
+a.hbupro-yellow{color: #000  !important;}
+
+/**************************************************************
+				Grid CSS
+**************************************************************/
+.container-player {
+  overflow: none;
+  width: 100%;
+  height: 100%;
+  background-color: #eee;
+  overflow: hidden;
+  position: absolute; }
+  .container-player.fullscreen-background {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0; }
+  .container-player .container-player-outer {
+    position: relative;
+    width: 100%;
+    height: 100%; }
+  .container-player .container-player-inner,
+  .container-player .container-player-poster {
+    position: absolute;
+    z-index: 0; }
+  .container-player .container-player-poster {
+    background-size: cover;
+    z-index: 0; }
+  .container-player.youtube iframe, .container-player.vimeo iframe {
+    opacity: 0;
+left:0px !important	}
+  .container-player.youtube.transition-in.playing iframe,
+  .container-player.youtube.transition-in.paused iframe, .container-player.vimeo.transition-in.playing iframe,
+  .container-player.vimeo.transition-in.paused iframe {
+    -webkit-animation: revealVideo 1s;
+    animation: revealVideo 1s; }
+  .container-player.youtube.playing iframe,
+  .container-player.youtube.paused iframe, .container-player.vimeo.playing iframe,
+  .container-player.vimeo.paused iframe {
+    opacity: 1; }
+  .container-player .container-player-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 0; }
+
+@-webkit-keyframes revealVideo {
+  0%, 50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes revealVideo {
+  0%, 50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+  .container-player video, .container-player iframe {
+    width: 100%;
+    height: 100%;
+    border: none; }
+
+
+/**************************************************************
+				Grid CSS
+**************************************************************/
+.hbupro-column,
+.hbupro-columns {  padding-left: 0.9375em;  padding-right: 0.9375em;  width: 100%;  float: left; position: relative;  }
+
+.hbupro-text-center{text-align:center}
+.hbupro-text-left{text-align:left}
+.hbupro-text-right{text-align:right}
+
+@media only screen and (max-width:480px) { 
+.hbupro-column,
+.hbupro-columns {  padding-left: 0.9375em;  padding-right: 0.9375em;  width: 100%;  float: left; position: relative;  }
+}
+
+@media only screen and (min-width: 40.0625em) {  
+	.hbupro-column,
+	.hbupro-columns {position: relative;padding-left: 0.9375em;padding-right: 0.9375em;float: left; }
+	.hbupro-medium-1{width: 8.33333%;}
+	.hbupro-medium-2{width: 16.66667%;}
+	.hbupro-medium-3{width: 25%;}
+	.hbupro-medium-4{width: 33.33333%;}
+	.hbupro-medium-5{width: 41.66667%;}
+	.hbupro-medium-6{width: 50%;}
+	.hbupro-medium-7{width: 58.33333%;}
+	.hbupro-medium-8{width: 66.66667%;}
+	.hbupro-medium-9{width: 75%;}
+	.hbupro-medium-10{width: 83.33333%;}
+	.hbupro-medium-11{width: 91.66667%;}
+	.hbupro-medium-12{width: 100%;}
+	
+	.hbupro-offest-medium-6{margin-left: 50%;}
+	
+}
+@media only screen and (max-width: 480px) { 
+	.hbupro-hero-banner-inner{padding:70px 0; }
+}
